@@ -2,8 +2,13 @@
   "name": "safe-object",
   "version": "0.0.0",
   "author": "katashin",
-  "description": "",
+  "description": "Safe property access for JavaScript objects",
   "keywords": [
+    "safe",
+    "object",
+    "property",
+    "option",
+    "optional"
   ],
   "license": "MIT",
   "main": "dist/safe-object.js",
