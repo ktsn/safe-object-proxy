@@ -22,7 +22,7 @@ const so = SafeObject({
 
 so.foo(); // 'hello'
 so.bar.baz(); // true
-so.test[1]; // 1
+so.test[1](); // 1
 so.throws.no.error.property.not.exists(); // undefined
 
 so.bar.baz = false; // You can update properties
@@ -49,7 +49,7 @@ fetch('/api/somthing')
   .then(res => res.json)
   .then(json => SafeObject(json))
   .then(data => {
-    console.log(data.user.media.uploadedImages[0]);
+    console.log(data.user.media.uploadedImages[0]());
   });
 ```
 
