@@ -1,5 +1,5 @@
 import assert from 'power-assert';
-import SafeObject from '../src/index';
+import SafeObject from '../src/safe-object';
 
 describe('SafeObject', () => {
   it('returns matcher function', () => {
