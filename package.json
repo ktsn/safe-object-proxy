@@ -24,7 +24,7 @@
     "build": "NODE_ENV=production gulp build",
     "lint": "gulp eslint",
     "test": "gulp test",
-    "test:ci": "webpack --config webpack.config.test.js && testem ci --launch Firefox,PhantomJS"
+    "test:ci": "webpack --config webpack.config.test.js && testem ci --launch Firefox"
   },
   "devDependencies": {
     "babel-core": "^6.7.6",
