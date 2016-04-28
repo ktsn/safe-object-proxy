@@ -6,7 +6,7 @@ module.exports = {
   entry: './safe-object-proxy.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'safe-object.js',
+    filename: 'safe-object-proxy.js',
     libraryTarget: 'umd'
   },
   resolve: {
