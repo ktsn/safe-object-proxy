@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   context: path.resolve(__dirname, 'src'),
-  entry: './safe-object.js',
+  entry: './safe-object-proxy.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'safe-object.js',

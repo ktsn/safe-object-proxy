@@ -1,6 +1,6 @@
 # safe-object
 
-Safe property access for JavaScript objects.
+Safe property access for JavaScript objects using Proxy Object.
 
 ## Requirement
 
@@ -10,7 +10,7 @@ Safe property access for JavaScript objects.
 ## Example
 
 ```js
-import SafeObject from 'safe-object';
+import SafeObject from 'safe-object-proxy';
 
 const so = SafeObject({
   foo: 'hello',
