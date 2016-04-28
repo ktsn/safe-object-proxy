@@ -1,0 +1,5 @@
+# safe-object
+
+## License
+
+MIT
