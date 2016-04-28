@@ -1,6 +1,6 @@
 {
   "name": "safe-object-proxy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "katashin",
   "description": "Safe property access for JavaScript objects using Proxy Object",
   "keywords": [
