@@ -1,4 +1,4 @@
-# safe-object
+# safe-object-proxy
 
 [![npm version](https://badge.fury.io/js/safe-object-proxy.svg)](https://badge.fury.io/js/safe-object-proxy)
 [![Build Status](https://travis-ci.org/ktsn/safe-object-proxy.svg?branch=master)](https://travis-ci.org/ktsn/safe-object-proxy)
