@@ -1,4 +1,4 @@
-export function noop() {}
+function noop() {}
 
 function get(target, key) {
   const obj = target();
