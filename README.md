@@ -33,7 +33,7 @@ so.bar.bar.bar = 'Not updated'; // Do nothing if you try to update the property 
 
 // pattern match whether the property is exist or not
 so.foo(
-  (val) => val + ' world';
+  (val) => val + ' world',
   () => 'Nothing'
 ); // 'hello world'
 
